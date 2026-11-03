@@ -19,9 +19,18 @@ Styles: Top (small, white, persistent header), Hook (big yellow, center-top),
 """
 import json, os, shutil, subprocess, sys, tempfile
 
-W, H, BOX_H = 1080, 1920, 1350
-BOX_Y = (H - BOX_H) // 2 - 40
-FPS = 30
+W, H, FPS = 1080, 1920, 30
+# layout "box": 4:5 picture between title bars; "full": full-screen 9:16 for phones
+LAYOUTS = {
+    "box":  {"box_h": 1350, "box_y": (1920 - 1350) // 2 - 40,
+             "styles": {"Top": (56, 5, 50), "Hook": (104, 8, 125), "Brand": (40, 4, 112),
+                        "Sub": (70, 6, 1615), "CTA": (66, 6, 1730)}},
+    "full": {"box_h": 1920, "box_y": 0,
+             "styles": {"Top": (88, 6, 150), "Brand": (44, 4, 250), "Hook": (100, 8, 330),
+                        "Sub": (72, 6, 1330), "CTA": (66, 6, 1450)}},
+}
+COLORS = {"Top": "&H00FFFFFF", "Brand": "&H0000D4FF", "Hook": "&H0000D4FF",
+          "Sub": "&H00FFFFFF", "CTA": "&H00FFFFFF"}
 
 
 def ts(t):
@@ -30,15 +39,10 @@ def ts(t):
     return f"{int(h)}:{int(m):02d}:{s:05.2f}"
 
 
-def ass(spec, family, total):
+def ass(spec, family, total, layout):
     pop = r"{\fad(80,120)\fscx135\fscy135\t(0,180,\fscx100\fscy100)}"
-    styles = {
-        # name: size, primary(&HAABBGGRR), outline, align(8=top-center), marginV
-        "Top":  (56, "&H00FFFFFF", 5, 8, 50),
-        "Hook": (104, "&H0000D4FF", 8, 8, 125),
-        "Sub":  (70, "&H00FFFFFF", 6, 8, 1615),
-        "CTA":  (66, "&H00FFFFFF", 6, 8, 1730),
-    }
+    # name: size, primary(&HAABBGGRR), outline, align(8=top-center), marginV
+    styles = {n: (sz, COLORS[n], ol, 8, mv) for n, (sz, ol, mv) in layout["styles"].items()}
     out = ["[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}", "",
            "[V4+ Styles]",
            "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, "
@@ -51,7 +55,7 @@ def ass(spec, family, total):
             "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"]
     for t in spec["texts"]:
         end = min(t["to"], total)
-        anim = "" if t["style"] == "Top" else pop
+        anim = "" if t["style"] in ("Top", "Brand") else pop
         out.append(f"Dialogue: 0,{ts(t['from'])},{ts(end)},{t['style']},,0,0,0,,{anim}{t['text']}")
     return "\n".join(out) + "\n"
 
@@ -63,26 +67,36 @@ def main():
     family = subprocess.check_output(["fc-scan", "--format", "%{family[0]}", font], text=True)
     shots = spec["shots"]
     total = sum(s["dur"] for s in shots)
+    layout = LAYOUTS[spec.get("layout", "box")]
+    BOX_H, BOX_Y = layout["box_h"], layout["box_y"]
+    full = BOX_H == H
 
     tmp = tempfile.mkdtemp()
     try:
         os.makedirs(f"{tmp}/fonts")
         shutil.copy(font, f"{tmp}/fonts/")
-        open(f"{tmp}/text.ass", "w").write(ass(spec, family, total))
+        open(f"{tmp}/text.ass", "w").write(ass(spec, family, total, layout))
 
         # Pass 1: render each shot on its own (fast input seek, low memory).
         parts = []
         for i, s in enumerate(shots):
             a, d = s["start"], s["dur"]
             z = s.get("zoom", 0.12)  # punch-in amount over the shot
-            if s.get("fit"):  # keep full 16:9 frame (logos / end cards), letterboxed
+            x = s.get("x", 0.5)  # horizontal crop position, 0=left .. 1=right
+            if s.get("fit") and full:  # whole 16:9 frame over a blurred fill
+                fh = round(W * 9 / 16 / 2) * 2
+                geo = (f"split[b][f];[b]scale=-2:{BOX_H},crop={W}:{BOX_H},boxblur=40:2,"
+                       f"eq=brightness=-0.2[bb];"
+                       f"[f]scale=w='trunc({W}*(1+{z}*t/{d})/2)*2':h=-2:eval=frame,crop={W}:{fh}[ff];"
+                       f"[bb][ff]overlay=0:(H-h)/2,")
+            elif s.get("fit"):  # keep full 16:9 frame (logos / end cards), letterboxed
                 fh = round(W * 9 / 16 / 2) * 2
                 geo = (f"scale=w='trunc({W}*(1+{z}*t/{d})/2)*2':h=-2:eval=frame,"
                        f"crop={W}:{fh},pad={W}:{BOX_H}:0:(oh-ih)/2:black,")
-            else:             # fill 4:5 box, center crop
+            else:             # fill the box, crop at x
                 geo = (f"scale=w='trunc({BOX_H}*16/9*(1+{z}*t/{d})/2)*2':"
                        f"h='trunc({BOX_H}*(1+{z}*t/{d})/2)*2':eval=frame,"
-                       f"crop={W}:{BOX_H},")
+                       f"crop={W}:{BOX_H}:x='(iw-ow)*{x}':y='(ih-oh)/2',")
             vf = (f"fps={FPS},{geo}setsar=1,format=yuv420p,"
                   f"fade=t=in:st=0:d=0.15:color=white")
             af = (f"aformat=sample_rates=48000:channel_layouts=stereo,"
@@ -104,7 +118,13 @@ def main():
         fc.append(f"color=c=0x0B0B0B:s={W}x{H}:r={FPS}:d={total}[bg]")
         fc.append(f"color=c=0xFFD400:s={W}x14:r={FPS}:d={total}[bar]")
         fc.append(f"[bg][mv]overlay=0:{BOX_Y}:shortest=1[c1]")
-        fc.append(f"[c1][bar]overlay=x='-W+W*t/{total}':y={H - 14}:shortest=1[c2]")
+        shade = ""
+        if full:  # darken behind the text so it reads on any footage
+            shade = ("drawbox=y=0:w=iw:h=420:color=black@0.40:t=fill,"
+                     "drawbox=y=420:w=iw:h=200:color=black@0.18:t=fill,"
+                     "drawbox=y=1280:w=iw:h=300:color=black@0.25:t=fill,")
+        fc.append(f"[c1]{shade}null[c1s]")
+        fc.append(f"[c1s][bar]overlay=x='-W+W*t/{total}':y={H - 14}:shortest=1[c2]")
         fc.append(f"[c2]subtitles={tmp}/text.ass:fontsdir={tmp}/fonts[vo]")
         fc.append(f"[ma]loudnorm=I=-14:TP=-1.5:LRA=11,afade=t=out:st={total - 1}:d=1[ao]")
 
