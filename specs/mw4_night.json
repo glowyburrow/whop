@@ -1,0 +1,125 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "shots": [
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 110.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 116.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 97.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 43.5,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 113.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 118.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 121.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 124.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 126.5,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 129.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 133.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 135.5,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 69.5,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 50.6,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 109.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 143.0,
+      "dur": 2.1,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 25.5,
+      "style": "Top",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 6.6,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 19.5,
+      "to": 25.5,
+      "style": "CTA",
+      "text": "تحب اللعب بالليل ولا بالنهار؟"
+    },
+    {
+      "from": 0.0,
+      "to": 6.6,
+      "style": "Hook",
+      "text": "عمليات ليلية في\\NModern Warfare 4"
+    },
+    {
+      "from": 6.6,
+      "to": 16.1,
+      "style": "Hook",
+      "text": "بدون صوت... بدون رحمة"
+    },
+    {
+      "from": 16.1,
+      "to": 23.4,
+      "style": "Hook",
+      "text": "وبعدها تبدأ الحرب"
+    }
+  ]
+}

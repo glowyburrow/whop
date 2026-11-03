@@ -1,0 +1,132 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "shots": [
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 1.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 3.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 13.2,
+      "dur": 1.3,
+      "fit": true,
+      "zoom": 0.05
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 21.0,
+      "dur": 1.7
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 26.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 28.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 34.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 39.0,
+      "dur": 1.7
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 52.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 47.0,
+      "dur": 1.7
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 73.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 79.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 85.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 90.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 108.0,
+      "dur": 1.7
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 125.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 143.0,
+      "dur": 2.1,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 27.9,
+      "style": "Top",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 6.4,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 21.9,
+      "to": 27.9,
+      "style": "CTA",
+      "text": "مين يدخل DMZ معي؟ منشن خويك"
+    },
+    {
+      "from": 0.0,
+      "to": 6.4,
+      "style": "Hook",
+      "text": "عالم DMZ في\\NModern Warfare 4"
+    },
+    {
+      "from": 6.4,
+      "to": 16.1,
+      "style": "Hook",
+      "text": "كل زاوية فيها خطر"
+    },
+    {
+      "from": 16.1,
+      "to": 25.8,
+      "style": "Hook",
+      "text": "جهّز فريقك"
+    }
+  ]
+}
