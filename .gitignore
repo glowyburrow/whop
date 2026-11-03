@@ -3,3 +3,4 @@ sources
 sources/
 *.mp4
 __pycache__/
+!arabic-cod-whop-clips-mohab/videos/*.mp4
