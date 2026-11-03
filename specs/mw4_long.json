@@ -1,0 +1,189 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 39.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 48.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 51.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 132.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 39.5,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 66.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 43.5,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 78.6,
+      "dur": 0.9
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 84.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 111.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 13.2,
+      "dur": 1.3,
+      "fit": true,
+      "zoom": 0.05
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 0.5,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 19.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 24.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 33.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 45.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 84.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 120.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 9.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 19.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 33.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 72.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 93.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 102.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 108.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 114.0,
+      "dur": 3.5,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 45.5,
+      "style": "Top",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 6.8,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 29.8,
+      "to": 38.0,
+      "style": "Sub",
+      "text": "أكشن بدون توقف"
+    },
+    {
+      "from": 38.0,
+      "to": 45.5,
+      "style": "CTA",
+      "text": "وش أقوى لقطة؟ قولوا بالتعليقات"
+    },
+    {
+      "from": 0.0,
+      "to": 6.8,
+      "style": "Hook",
+      "text": "أقوى لحظات\\NModern Warfare 4"
+    },
+    {
+      "from": 6.8,
+      "to": 16.1,
+      "style": "Hook",
+      "text": "الحملة أكشن سينمائي"
+    },
+    {
+      "from": 16.1,
+      "to": 29.8,
+      "style": "Hook",
+      "text": "وضع DMZ رجع أقوى"
+    },
+    {
+      "from": 29.8,
+      "to": 42.0,
+      "style": "Hook",
+      "text": "على الكمبيوتر\\Nبجودة خيالية"
+    }
+  ]
+}
