@@ -1,0 +1,135 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 21.0,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 47.0,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 49.3,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 53.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 74.6,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 87.7,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 31.5,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 90.6,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 45.6,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 46.6,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 22.8,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 95.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 22.3,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 105.6,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 107.5,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 110.5,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 12.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 143.0,
+      "dur": 2.1,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 21.5,
+      "style": "Top",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 4.7,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 15.5,
+      "to": 21.5,
+      "style": "CTA",
+      "text": "وش أقوى انفجار؟ قولوا بالتعليقات"
+    },
+    {
+      "from": 0.0,
+      "to": 4.7,
+      "style": "Hook",
+      "text": "انفجارات بدون توقف\\NModern Warfare 4"
+    },
+    {
+      "from": 4.7,
+      "to": 14.0,
+      "style": "Hook",
+      "text": "كل ثانية أكشن"
+    },
+    {
+      "from": 14.0,
+      "to": 19.4,
+      "style": "Hook",
+      "text": "ولا لحظة ملل"
+    }
+  ]
+}

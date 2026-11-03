@@ -1,0 +1,130 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "shots": [
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 57.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 61.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 63.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 66.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 74.5,
+      "dur": 1.7
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 76.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 78.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 87.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 82.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 91.5,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 106.4,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 109.8,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 48.2,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 53.7,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 122.5,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 130.5,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 115.5,
+      "dur": 2.0,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 26.3,
+      "style": "Top",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 6.4,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 20.3,
+      "to": 26.3,
+      "style": "CTA",
+      "text": "جاهز للمهمة؟ قولها بالتعليقات"
+    },
+    {
+      "from": 0.0,
+      "to": 6.4,
+      "style": "Hook",
+      "text": "المهمة بدأت\\NModern Warfare 4"
+    },
+    {
+      "from": 6.4,
+      "to": 15.4,
+      "style": "Hook",
+      "text": "ادخل بصمت"
+    },
+    {
+      "from": 15.4,
+      "to": 24.3,
+      "style": "Hook",
+      "text": "ونفّذ المهمة"
+    }
+  ]
+}

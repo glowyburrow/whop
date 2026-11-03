@@ -1,0 +1,120 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 12.5,
+      "dur": 2.0
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 35.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 40.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 36.7,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 72.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 40.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 41.0,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 5.5,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 88.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 85.2,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 111.5,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 114.5,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 119.7,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 113.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 115.5,
+      "dur": 2.0,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 23.3,
+      "style": "Top",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 5.2,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 17.3,
+      "to": 23.3,
+      "style": "CTA",
+      "text": "منشن السكواد حقك"
+    },
+    {
+      "from": 0.0,
+      "to": 5.2,
+      "style": "Hook",
+      "text": "خذ سكوادك\\NModern Warfare 4"
+    },
+    {
+      "from": 5.2,
+      "to": 15.4,
+      "style": "Hook",
+      "text": "غطّوا بعض"
+    },
+    {
+      "from": 15.4,
+      "to": 21.3,
+      "style": "Hook",
+      "text": "وادخلوا الجبهة"
+    }
+  ]
+}
