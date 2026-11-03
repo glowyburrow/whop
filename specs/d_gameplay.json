@@ -1,0 +1,199 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 10.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 12.5,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 23.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 28.5,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 30.0,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 32.5,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 34.5,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 72.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 73.0,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 74.6,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 85.2,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 17.5,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 19.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 40.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 41.0,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 46.3,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 55.5,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 60.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 86.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 89.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 90.6,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 93.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 104.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 106.0,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 107.5,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 111.5,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 114.2,
+      "dur": 2.4,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 38.5,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 38.5,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0,
+      "to": 38.5,
+      "style": "Date",
+      "text": "٣ نوفمبر ٢٠٢٦"
+    },
+    {
+      "from": 0.3,
+      "to": 5.8,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 32.5,
+      "to": 38.5,
+      "style": "CTA",
+      "text": "تحب السنايبر ولا الرشاش؟"
+    },
+    {
+      "from": 0.0,
+      "to": 5.8,
+      "style": "Hook",
+      "text": "جيمبلاي\\Nكول اوف ديوتي"
+    },
+    {
+      "from": 5.8,
+      "to": 14.9,
+      "style": "Hook",
+      "text": "كل طلقة محسوبة"
+    },
+    {
+      "from": 14.9,
+      "to": 25.1,
+      "style": "Hook",
+      "text": "تحرّك بسرعة"
+    },
+    {
+      "from": 25.1,
+      "to": 36.1,
+      "style": "Hook",
+      "text": "وسيطر على الساحة"
+    }
+  ]
+}

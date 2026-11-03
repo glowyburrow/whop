@@ -1,0 +1,211 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 39.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 48.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 51.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 47.0,
+      "dur": 0.9
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 21.0,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 50.6,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 46.6,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 108.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 109.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 54.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 105.6,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 45.6,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 12.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 53.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 96.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 102.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 113.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 9.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 84.0,
+      "dur": 1.4,
+      "fit": true,
+      "zoom": 0.06
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 120.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 132.0,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 110.5,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 111.5,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 92.0,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 73.0,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 87.7,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 43.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 97.5,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 114.2,
+      "dur": 2.4,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 39.0,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 39.0,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0,
+      "to": 39.0,
+      "style": "Date",
+      "text": "٣ نوفمبر ٢٠٢٦"
+    },
+    {
+      "from": 0.3,
+      "to": 6.6,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 33.0,
+      "to": 39.0,
+      "style": "CTA",
+      "text": "وش أقوى لقطة؟ قولوا بالتعليقات"
+    },
+    {
+      "from": 0.0,
+      "to": 6.6,
+      "style": "Hook",
+      "text": "أقوى لحظات\\Nكول اوف ديوتي"
+    },
+    {
+      "from": 6.6,
+      "to": 17.3,
+      "style": "Hook",
+      "text": "انفجارات بدون توقف"
+    },
+    {
+      "from": 17.3,
+      "to": 27.3,
+      "style": "Hook",
+      "text": "السكواد جاهز"
+    },
+    {
+      "from": 27.3,
+      "to": 36.6,
+      "style": "Hook",
+      "text": "والحرب ما تنتهي"
+    }
+  ]
+}

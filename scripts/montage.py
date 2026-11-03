@@ -24,12 +24,14 @@ W, H, FPS = 1080, 1920, 30
 LAYOUTS = {
     "box":  {"box_h": 1350, "box_y": (1920 - 1350) // 2 - 40,
              "styles": {"Top": (56, 5, 50), "Hook": (104, 8, 125), "Brand": (40, 4, 112),
+                        "Date": (36, 4, 1830),
                         "Sub": (70, 6, 1615), "CTA": (66, 6, 1730)}},
     "full": {"box_h": 1920, "box_y": 0,
-             "styles": {"Top": (88, 6, 150), "Brand": (44, 4, 250), "Hook": (100, 8, 330),
+             "styles": {"Top": (88, 6, 150), "Brand": (44, 4, 250), "Date": (40, 4, 308),
+                        "Hook": (100, 8, 380),
                         "Sub": (72, 6, 1330), "CTA": (66, 6, 1450)}},
 }
-COLORS = {"Top": "&H00FFFFFF", "Brand": "&H0000D4FF", "Hook": "&H0000D4FF",
+COLORS = {"Top": "&H00FFFFFF", "Brand": "&H0000D4FF", "Date": "&H00E6E6E6", "Hook": "&H0000D4FF",
           "Sub": "&H00FFFFFF", "CTA": "&H00FFFFFF"}
 
 
@@ -55,7 +57,7 @@ def ass(spec, family, total, layout):
             "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"]
     for t in spec["texts"]:
         end = min(t["to"], total)
-        anim = "" if t["style"] in ("Top", "Brand") else pop
+        anim = "" if t["style"] in ("Top", "Brand", "Date") else pop
         out.append(f"Dialogue: 0,{ts(t['from'])},{ts(end)},{t['style']},,0,0,0,,{anim}{t['text']}")
     return "\n".join(out) + "\n"
 
