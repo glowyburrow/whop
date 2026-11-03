@@ -1,0 +1,123 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 39.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 47.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 54.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 51.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 9.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 13.2,
+      "dur": 1.3,
+      "fit": true,
+      "zoom": 0.05
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 81.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 84.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 72.0,
+      "dur": 1.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 87.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 96.0,
+      "dur": 2.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 90.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 108.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 114.0,
+      "dur": 3.3,
+      "zoom": 0.04,
+      "fit": true
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 25.5,
+      "style": "Top",
+      "text": "مودرن وارفير ٤"
+    },
+    {
+      "from": 0,
+      "to": 3.4,
+      "style": "Hook",
+      "text": "أقوى لحظات MW4"
+    },
+    {
+      "from": 0.3,
+      "to": 3.4,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 6.8,
+      "to": 11.9,
+      "style": "Hook",
+      "text": "وضع DMZ رجع أقوى"
+    },
+    {
+      "from": 13.7,
+      "to": 19.1,
+      "style": "Hook",
+      "text": "على الكمبيوتر\\Nبجودة خيالية"
+    },
+    {
+      "from": 19.1,
+      "to": 22.2,
+      "style": "Hook",
+      "text": "أكشن بدون توقف"
+    },
+    {
+      "from": 20.6,
+      "to": 25.5,
+      "style": "CTA",
+      "text": "وش أقوى لقطة؟ قولوا بالتعليقات"
+    }
+  ]
+}

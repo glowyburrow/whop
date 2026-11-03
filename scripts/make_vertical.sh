@@ -37,9 +37,9 @@ ts() { awk -v t="$1" 'BEGIN{h=int(t/3600);m=int(t%3600/60);s=t-h*3600-m*60;print
   echo "[Script Info]"; echo "ScriptType: v4.00+"; echo "PlayResX: 1080"; echo "PlayResY: 1920"; echo
   echo "[V4+ Styles]"
   echo "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding"
-  echo "Style: H1,$fam,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,0,8,40,40,330,1"
-  echo "Style: H2,$fam,92,&H0000D4FF,&H0000D4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,0,8,40,40,450,1"
-  echo "Style: CTA,$fam,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,0,8,40,40,1450,1"
+  echo "Style: H1,$fam,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,0,8,40,40,330,-1"
+  echo "Style: H2,$fam,92,&H0000D4FF,&H0000D4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,0,8,40,40,450,-1"
+  echo "Style: CTA,$fam,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,0,8,40,40,1450,-1"
   echo; echo "[Events]"
   echo "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"
   echo "Dialogue: 0,0:00:00.00,$(ts "$total"),H1,,0,0,0,,$HOOK1"
