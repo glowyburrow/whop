@@ -95,19 +95,24 @@ def main():
                 fh = round(W * 9 / 16 / 2) * 2
                 geo = (f"scale=w='trunc({W}*(1+{z}*t/{d})/2)*2':h=-2:eval=frame,"
                        f"crop={W}:{fh},pad={W}:{BOX_H}:0:(oh-ih)/2:black,")
-            else:             # fill the box, crop at x
-                geo = (f"scale=w='trunc({BOX_H}*16/9*(1+{z}*t/{d})/2)*2':"
-                       f"h='trunc({BOX_H}*(1+{z}*t/{d})/2)*2':eval=frame,"
-                       f"crop={W}:{BOX_H}:x='(iw-ow)*{x}':y='(ih-oh)/2',")
-            vf = (f"fps={FPS},{geo}setsar=1,format=yuv420p,"
+            else:             # fill the box, crop at x (optional camera shake)
+                sh = s.get("shake", 0)  # shake amplitude in px
+                base = 1 + (0.06 if sh else 0)
+                geo = (f"scale=w='trunc({BOX_H}*16/9*({base}+{z}*t/{d})/2)*2':"
+                       f"h='trunc({BOX_H}*({base}+{z}*t/{d})/2)*2':eval=frame,"
+                       f"crop={W}:{BOX_H}:x='(iw-ow)*{x}+{sh}*sin(t*53)':"
+                       f"y='(ih-oh)/2+{sh}*cos(t*47)',")
+            sp = s.get("speed", 1.0)  # <1 slow motion, >1 fast
+            vf = (f"setpts=(PTS-STARTPTS)/{sp},fps={FPS},{geo}setsar=1,format=yuv420p,"
                   f"fade=t=in:st=0:d=0.15:color=white")
             af = (f"aformat=sample_rates=48000:channel_layouts=stereo,"
-                  f"afade=t=in:d=0.03,afade=t=out:st={d - 0.05}:d=0.05")
+                  + (f"atempo={sp}," if sp != 1.0 else "")
+                  + f"afade=t=in:d=0.03,afade=t=out:st={d - 0.05}:d=0.05")
             part = f"{tmp}/shot{i:02d}.mkv"
-            subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(a), "-t", str(d),
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(a), "-t", str(round(d * sp, 3)),
                             "-i", s["src"], "-vf", vf, "-af", af,
                             "-c:v", "libx264", "-preset", "veryfast", "-crf", "14",
-                            "-c:a", "pcm_s16le", part], check=True)
+                            "-c:a", "pcm_s16le", "-t", str(d), part], check=True)
             parts.append(part)
             print(f"  shot {i + 1}/{len(shots)}", flush=True)
 

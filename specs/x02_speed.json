@@ -1,0 +1,143 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 39.0,
+      "dur": 1.0,
+      "speed": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 40.4,
+      "dur": 1.2,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 53.0,
+      "dur": 0.8,
+      "speed": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 54.0,
+      "dur": 1.2,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 21.0,
+      "dur": 0.8,
+      "speed": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 21.8,
+      "dur": 1.2,
+      "speed": 0.5,
+      "shake": 14
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 86.0,
+      "dur": 0.9,
+      "speed": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 87.2,
+      "dur": 1.2,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 89.0,
+      "dur": 0.9,
+      "speed": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 90.3,
+      "dur": 1.2,
+      "speed": 0.5,
+      "shake": 14
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 104.0,
+      "dur": 0.9,
+      "speed": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 105.3,
+      "dur": 1.2,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 111.5,
+      "dur": 1.0,
+      "speed": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 112.9,
+      "dur": 1.2,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 114.2,
+      "dur": 2.4,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 17.1,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 17.1,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 4.2,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 11.100000000000001,
+      "to": 17.1,
+      "style": "CTA",
+      "text": "عجبك التقطيع؟ اكتب ١٠٠"
+    },
+    {
+      "from": 0.0,
+      "to": 4.2,
+      "style": "Hook",
+      "text": "سرعة جنونية\\Nكول اوف ديوتي"
+    },
+    {
+      "from": 4.2,
+      "to": 10.4,
+      "style": "Hook",
+      "text": "وفجأة..."
+    },
+    {
+      "from": 10.4,
+      "to": 14.7,
+      "style": "Hook",
+      "text": "كل شي يتغير"
+    }
+  ]
+}

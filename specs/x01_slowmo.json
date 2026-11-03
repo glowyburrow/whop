@@ -1,0 +1,135 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 109.0,
+      "dur": 1.8,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 48.0,
+      "dur": 1.6,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 24.0,
+      "dur": 1.0,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 47.0,
+      "dur": 1.2,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 51.0,
+      "dur": 1.6,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 50.6,
+      "dur": 1.6,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 46.6,
+      "dur": 1.6,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 105.6,
+      "dur": 1.4,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 110.5,
+      "dur": 1.4,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 73.0,
+      "dur": 1.4,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 22.3,
+      "dur": 1.4,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 96.0,
+      "dur": 1.8,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 108.0,
+      "dur": 1.6,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 114.2,
+      "dur": 2.4,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 21.8,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 21.8,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 5.6,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 15.8,
+      "to": 21.8,
+      "style": "CTA",
+      "text": "أي لقطة تبيها بطيء أكثر؟"
+    },
+    {
+      "from": 0.0,
+      "to": 5.6,
+      "style": "Hook",
+      "text": "لحظة بلحظة\\Nكول اوف ديوتي"
+    },
+    {
+      "from": 5.6,
+      "to": 13.2,
+      "style": "Hook",
+      "text": "شوف التفاصيل"
+    },
+    {
+      "from": 13.2,
+      "to": 19.4,
+      "style": "Hook",
+      "text": "ولا تفوتك لقطة"
+    }
+  ]
+}

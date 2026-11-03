@@ -1,0 +1,124 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 40.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 41.0,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 46.3,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 17.5,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 19.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 20.5,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 55.5,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 72.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 85.2,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 88.0,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 93.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 26.0,
+      "dur": 1.4,
+      "fit": true,
+      "zoom": 0.06
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 86.0,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 114.2,
+      "dur": 2.4,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 20.4,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 20.4,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 5.8,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 14.399999999999999,
+      "to": 20.4,
+      "style": "CTA",
+      "text": "منشن خويك اللي يلعب معك"
+    },
+    {
+      "from": 0.0,
+      "to": 5.8,
+      "style": "Hook",
+      "text": "حرب شوارع\\Nكول اوف ديوتي"
+    },
+    {
+      "from": 5.8,
+      "to": 12.7,
+      "style": "Hook",
+      "text": "كل زاوية معركة"
+    },
+    {
+      "from": 12.7,
+      "to": 18.0,
+      "style": "Hook",
+      "text": "ولا تتوقف"
+    }
+  ]
+}

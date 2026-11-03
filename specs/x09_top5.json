@@ -1,0 +1,139 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 21.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 22.3,
+      "dur": 0.9
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 51.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 53.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 48.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 47.0,
+      "dur": 0.9,
+      "shake": 18
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 96.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 97.5,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 109.0,
+      "dur": 1.6,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 110.5,
+      "dur": 1.0,
+      "shake": 18
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 43.5,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 108.0,
+      "dur": 1.8,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 114.2,
+      "dur": 2.4,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 18.1,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 18.1,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 1.9,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 12.100000000000001,
+      "to": 18.1,
+      "style": "CTA",
+      "text": "وش أقوى رقم عندك؟"
+    },
+    {
+      "from": 0.0,
+      "to": 1.9,
+      "style": "Hook",
+      "text": "٥ لقطات مجنونة\\Nفي كول اوف ديوتي"
+    },
+    {
+      "from": 1.9,
+      "to": 4.4,
+      "style": "Hook",
+      "text": "رقم ٥"
+    },
+    {
+      "from": 4.4,
+      "to": 6.7,
+      "style": "Hook",
+      "text": "رقم ٤"
+    },
+    {
+      "from": 6.7,
+      "to": 9.7,
+      "style": "Hook",
+      "text": "رقم ٣"
+    },
+    {
+      "from": 9.7,
+      "to": 12.3,
+      "style": "Hook",
+      "text": "رقم ٢"
+    },
+    {
+      "from": 12.3,
+      "to": 15.7,
+      "style": "Hook",
+      "text": "رقم ١"
+    }
+  ]
+}

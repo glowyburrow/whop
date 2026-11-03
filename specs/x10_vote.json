@@ -1,0 +1,136 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 104.0,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 105.6,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 39.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 40.4,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 41.0,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 46.3,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 96.0,
+      "dur": 1.6
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 97.5,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 102.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 113.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 46.6,
+      "dur": 1.2,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 48.0,
+      "dur": 1.4
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 50.6,
+      "dur": 1.2,
+      "shake": 18
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 109.0,
+      "dur": 1.4,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 114.2,
+      "dur": 2.4,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 21.1,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 21.1,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 2.2,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 15.1,
+      "to": 21.1,
+      "style": "CTA",
+      "text": "اختار رقمك بالتعليقات: ١ ولا ٢ ولا ٣"
+    },
+    {
+      "from": 0,
+      "to": 2.2,
+      "style": "Hook",
+      "text": "اختار أقوى لقطة\\Nكول اوف ديوتي"
+    },
+    {
+      "from": 2.2,
+      "to": 7.6,
+      "style": "Hook",
+      "text": "لقطة ١"
+    },
+    {
+      "from": 7.6,
+      "to": 13.5,
+      "style": "Hook",
+      "text": "لقطة ٢"
+    },
+    {
+      "from": 13.5,
+      "to": 18.7,
+      "style": "Hook",
+      "text": "لقطة ٣"
+    }
+  ]
+}
