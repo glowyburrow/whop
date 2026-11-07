@@ -1,0 +1,25 @@
+{
+  "audio": "mute",
+  "shots": [
+    {"src": "ugc/definitely_changed.mp4", "start": 0.3, "dur": 2.4, "zoom": 0.08, "punch": 0.10},
+    {"src": "ugc/definitely_changed.mp4", "start": 12.0, "dur": 2.2, "zoom": 0.10, "punch": 0.08},
+    {"src": "ugc/definitely_changed.mp4", "start": 22.2, "dur": 1.6, "zoom": 0.06},
+    {"src": "ugc/definitely_changed.mp4", "start": 25.4, "dur": 2.2, "zoom": 0.08},
+    {"src": "ugc/definitely_changed.mp4", "start": 28.0, "dur": 1.6, "zoom": 0.06},
+    {"src": "ugc/definitely_changed.mp4", "start": 31.6, "dur": 1.8, "zoom": 0.06},
+    {"src": "ugc/definitely_changed.mp4", "start": 34.2, "dur": 2.0, "zoom": 0.06},
+    {"src": "ugc/definitely_changed.mp4", "start": 37.4, "dur": 1.9, "zoom": 0.10, "punch": 0.08},
+    {"img": "product/flex_reveal.jpg", "dur": 3.0, "zoom": 0.06}
+  ],
+  "texts": [
+    {"from": 0.0, "to": 2.4, "style": "Hook", "text": "the routine that faded\\Nmy dark spots in 30 days"},
+    {"from": 2.4, "to": 4.6, "style": "Step", "text": "this is the game changer"},
+    {"from": 4.6, "to": 8.4, "style": "Step", "text": "step 1: cleanse with the FLEX™"},
+    {"from": 8.4, "to": 10.0, "style": "Step", "text": "step 2: pat dry, don't rub"},
+    {"from": 10.0, "to": 11.8, "style": "Step", "text": "step 3: dark spot serum"},
+    {"from": 11.8, "to": 13.8, "style": "Step", "text": "step 4: moisturizer"},
+    {"from": 13.8, "to": 15.7, "style": "Step", "text": "results ↓"},
+    {"from": 15.7, "to": 18.7, "style": "Brand", "text": "FLEX™ by Douxds"},
+    {"from": 15.85, "to": 18.7, "style": "Small", "text": "90-day money-back guarantee\\Ndouxds.com"}
+  ]
+}
