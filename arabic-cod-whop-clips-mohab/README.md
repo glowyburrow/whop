@@ -26,5 +26,17 @@ Vertical 1080×1920 clips made only from the official campaign sources, original
 | 20 | `x08_close` | 18s | Full phone screen — Close combat | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/x08_close.mp4) |
 | 21 | `x09_top5` | 18s | Full phone screen — Top 5 countdown | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/x09_top5.mp4) |
 | 22 | `x10_vote` | 21s | Full phone screen — Vote 1/2/3 | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/x10_vote.mp4) |
+| 23 | `s01_best15` | 16s | Full phone screen, punch + glitch — Best 15 seconds | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/s01_best15.mp4) |
+| 24 | `s02_wait` | 17s | Full phone screen, punch + glitch — Wait for the last shot | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/s02_wait.mp4) |
+| 25 | `s03_pov` | 16s | Full phone screen, punch + glitch — POV battlefield | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/s03_pov.mp4) |
+| 26 | `s04_noblink` | 17s | Full phone screen, punch + glitch — Don't blink challenge | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/s04_noblink.mp4) |
+| 27 | `s05_sniper` | 16s | Full phone screen, punch + glitch — Sniper | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/s05_sniper.mp4) |
+| 28 | `s06_weapon` | 18s | Full phone screen, punch + glitch — Pick your weapon | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/s06_weapon.mp4) |
+| 29 | `s07_squad` | 17s | Full phone screen, punch + glitch — Full squad | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/s07_squad.mp4) |
+| 30 | `s08_storm` | 16s | Full phone screen, punch + glitch — Explosion storm | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/s08_storm.mp4) |
+| 31 | `s09_count` | 17s | Full phone screen, punch + glitch — Count the explosions | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/s09_count.mp4) |
+| 32 | `s10_tempo` | 24s | Full phone screen, punch + glitch — Tempo cuts (90 BPM) | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/s10_tempo.mp4) |
 
 Before posting: tag @callofdutyarabic (TikTok) / @callofdutyara (Instagram), keep likes/comments visible, check every clip yourself (no Mads Mikkelsen).
+
+Optional audio (rule added Nov 2026): the song "C.R.E.A.M (Call of Duty: Modern Warfare 4 remix)" may be used, but only added inside the TikTok/Instagram app so the sound stays linked. `s10_tempo` is cut every 1.33s (90 BPM) to suit a music track.

@@ -83,7 +83,7 @@
     {
       "src": "sources/PC Trailer.mp4",
       "start": 24.0,
-      "dur": 1.6,
+      "dur": 1.0,
       "speed": 0.5,
       "shake": 14
     },
@@ -98,13 +98,13 @@
   "texts": [
     {
       "from": 0,
-      "to": 16.8,
+      "to": 16.2,
       "style": "Top",
       "text": "CALL OF DUTY"
     },
     {
       "from": 0,
-      "to": 16.8,
+      "to": 16.2,
       "style": "Brand",
       "text": "MODERN WARFARE 4"
     },
@@ -115,8 +115,8 @@
       "text": "شغّل الصوت"
     },
     {
-      "from": 10.8,
-      "to": 16.8,
+      "from": 10.2,
+      "to": 16.2,
       "style": "CTA",
       "text": "وش أقوى انفجار؟"
     },
@@ -134,7 +134,7 @@
     },
     {
       "from": 9.1,
-      "to": 14.7,
+      "to": 14.1,
       "style": "Hook",
       "text": "والأقوى في الآخر"
     }
