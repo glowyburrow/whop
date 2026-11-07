@@ -6,7 +6,7 @@ SRC = {"P": "sources/PC Trailer.mp4", "D": "sources/DMZ WORLDBUILDER.mp4",
        "C": "sources/Campaign Trailer.mp4"}
 
 
-def build(path, title, sections, cta, sub=("شغّل الصوت", 0), layout="box", brand=None, date=None):
+def build(path, title, sections, cta, sub=("شغّل الصوت", 0), layout="box", brand=None, date=None, fx=None):
     shots, texts, t, spans = [], [], 0.0, []
     for hook, items in sections:
         st = t
@@ -27,6 +27,9 @@ def build(path, title, sections, cta, sub=("شغّل الصوت", 0), layout="bo
         texts.insert(1, {"from": 0, "to": T, "style": "Date", "text": date})
     if brand:
         texts.insert(1, {"from": 0, "to": T, "style": "Brand", "text": brand})
-    json.dump({"font": "fonts/Cairo-Black.ttf", "layout": layout, "shots": shots, "texts": texts},
+    out = {"font": "fonts/Cairo-Black.ttf", "layout": layout, "shots": shots, "texts": texts}
+    if fx:
+        out["fx"] = fx
+    json.dump(out,
               open(path, "w"), ensure_ascii=False, indent=2)
     return T

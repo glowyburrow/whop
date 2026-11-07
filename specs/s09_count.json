@@ -1,0 +1,126 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 39.0,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 48.0,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 72.0,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 50.6,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 85.2,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 109.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 96.0,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 46.6,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 102.0,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 108.0,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 73.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 110.5,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 40.0,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 114.2,
+      "dur": 2.4,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 16.7,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 16.7,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 4.5,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 10.7,
+      "to": 16.7,
+      "style": "CTA",
+      "text": "اكتب العدد بالتعليقات"
+    },
+    {
+      "from": 0.0,
+      "to": 4.5,
+      "style": "Hook",
+      "text": "تحدي: كم انفجار\\Nبتشوف؟"
+    },
+    {
+      "from": 4.5,
+      "to": 10.0,
+      "style": "Hook",
+      "text": "ركّز زين..."
+    },
+    {
+      "from": 10.0,
+      "to": 14.3,
+      "style": "Hook",
+      "text": "آخر فرصة"
+    }
+  ],
+  "fx": {
+    "punch": 0.22,
+    "glitch": true
+  }
+}

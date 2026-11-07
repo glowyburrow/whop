@@ -81,8 +81,11 @@ def main():
 
         # Pass 1: render each shot on its own (fast input seek, low memory).
         parts = []
+        fx = spec.get("fx", {})  # defaults for every shot: punch (zoom-in hit), glitch (RGB split on cut)
         for i, s in enumerate(shots):
             a, d = s["start"], s["dur"]
+            pu = s.get("punch", fx.get("punch", 0))
+            gl = s.get("glitch", fx.get("glitch", False)) and not s.get("fit")
             z = s.get("zoom", 0.12)  # punch-in amount over the shot
             x = s.get("x", 0.5)  # horizontal crop position, 0=left .. 1=right
             if s.get("fit") and full:  # whole 16:9 frame over a blurred fill
@@ -98,12 +101,14 @@ def main():
             else:             # fill the box, crop at x (optional camera shake)
                 sh = s.get("shake", 0)  # shake amplitude in px
                 base = 1 + (0.06 if sh else 0)
-                geo = (f"scale=w='trunc({BOX_H}*16/9*({base}+{z}*t/{d})/2)*2':"
-                       f"h='trunc({BOX_H}*({base}+{z}*t/{d})/2)*2':eval=frame,"
+                k = f"({base}+{z}*t/{d}+{pu}*max(0,1-t/0.22))"
+                geo = (f"scale=w='trunc({BOX_H}*16/9*{k}/2)*2':"
+                       f"h='trunc({BOX_H}*{k}/2)*2':eval=frame,"
                        f"crop={W}:{BOX_H}:x='(iw-ow)*{x}+{sh}*sin(t*53)':"
                        f"y='(ih-oh)/2+{sh}*cos(t*47)',")
             sp = s.get("speed", 1.0)  # <1 slow motion, >1 fast
-            vf = (f"setpts=(PTS-STARTPTS)/{sp},fps={FPS},{geo}setsar=1,format=yuv420p,"
+            glitch = "rgbashift=rh=-26:bh=26:gv=8:enable='lt(t,0.12)'," if gl else ""
+            vf = (f"setpts=(PTS-STARTPTS)/{sp},fps={FPS},{geo}{glitch}setsar=1,format=yuv420p,"
                   f"fade=t=in:st=0:d=0.15:color=white")
             af = (f"aformat=sample_rates=48000:channel_layouts=stereo,"
                   + (f"atempo={sp}," if sp != 1.0 else "")

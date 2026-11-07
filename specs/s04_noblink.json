@@ -1,0 +1,166 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 39.0,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 48.0,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 51.0,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 47.0,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 21.0,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 50.6,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 46.6,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 109.0,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 110.5,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 96.0,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 102.0,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 108.0,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 45.6,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 105.6,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 73.0,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 40.4,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 54.0,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 87.7,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 90.6,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 104.0,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 111.5,
+      "dur": 0.7
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 114.2,
+      "dur": 2.4,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 17.1,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 17.1,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 3.5,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 11.100000000000001,
+      "to": 17.1,
+      "style": "CTA",
+      "text": "رمشت؟ اعترف بالتعليقات"
+    },
+    {
+      "from": 0.0,
+      "to": 3.5,
+      "style": "Hook",
+      "text": "تحدي: لا ترمش\\Nكول اوف ديوتي"
+    },
+    {
+      "from": 3.5,
+      "to": 9.1,
+      "style": "Hook",
+      "text": "لا ترمش..."
+    },
+    {
+      "from": 9.1,
+      "to": 14.7,
+      "style": "Hook",
+      "text": "قربت تخلص"
+    }
+  ],
+  "fx": {
+    "punch": 0.22,
+    "glitch": true
+  }
+}

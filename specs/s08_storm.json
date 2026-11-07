@@ -1,0 +1,146 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 48.0,
+      "dur": 1.1,
+      "shake": 18
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 47.0,
+      "dur": 0.8,
+      "shake": 18
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 50.6,
+      "dur": 1.1,
+      "shake": 18
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 109.0,
+      "dur": 1.0,
+      "shake": 18
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 110.5,
+      "dur": 0.9,
+      "shake": 18
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 46.6,
+      "dur": 1.0,
+      "shake": 18
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 45.6,
+      "dur": 1.0,
+      "shake": 18
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 105.6,
+      "dur": 1.0,
+      "shake": 18
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 108.0,
+      "dur": 1.2,
+      "shake": 18
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 12.0,
+      "dur": 0.9,
+      "shake": 18
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 133.0,
+      "dur": 1.0,
+      "shake": 18
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 21.0,
+      "dur": 1.1,
+      "shake": 18
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 56.0,
+      "dur": 1.0,
+      "shake": 18
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 24.0,
+      "dur": 1.6,
+      "speed": 0.5,
+      "shake": 14
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 143.0,
+      "dur": 2.1,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 16.8,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 16.8,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 4.0,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 10.8,
+      "to": 16.8,
+      "style": "CTA",
+      "text": "وش أقوى انفجار؟"
+    },
+    {
+      "from": 0.0,
+      "to": 4.0,
+      "style": "Hook",
+      "text": "عاصفة انفجارات\\Nكول اوف ديوتي"
+    },
+    {
+      "from": 4.0,
+      "to": 9.1,
+      "style": "Hook",
+      "text": "ما في مكان آمن"
+    },
+    {
+      "from": 9.1,
+      "to": 14.7,
+      "style": "Hook",
+      "text": "والأقوى في الآخر"
+    }
+  ],
+  "fx": {
+    "punch": 0.22,
+    "glitch": true
+  }
+}

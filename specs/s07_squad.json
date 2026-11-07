@@ -1,0 +1,122 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 96.0,
+      "dur": 1.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 97.5,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 113.0,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 102.0,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 9.0,
+      "dur": 1.3
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 85.2,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 88.0,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 120.0,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 132.0,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 133.0,
+      "dur": 1.1,
+      "shake": 18
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 89.0,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 104.0,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 143.0,
+      "dur": 2.1,
+      "fit": true,
+      "zoom": 0.04
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 16.9,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 16.9,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 4.1,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 10.899999999999999,
+      "to": 16.9,
+      "style": "CTA",
+      "text": "منشن السكواد حقك"
+    },
+    {
+      "from": 0.0,
+      "to": 4.1,
+      "style": "Hook",
+      "text": "السكواد الكامل\\Nكول اوف ديوتي"
+    },
+    {
+      "from": 4.1,
+      "to": 9.0,
+      "style": "Hook",
+      "text": "واحد يغطي"
+    },
+    {
+      "from": 9.0,
+      "to": 14.8,
+      "style": "Hook",
+      "text": "والثاني يهجم"
+    }
+  ],
+  "fx": {
+    "punch": 0.22,
+    "glitch": true
+  }
+}
