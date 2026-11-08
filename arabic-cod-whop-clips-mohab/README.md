@@ -36,6 +36,16 @@ Vertical 1080×1920 clips made only from the official campaign sources, original
 | 30 | `s08_storm` | 16s | Full phone screen, punch + glitch — Explosion storm | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/s08_storm.mp4) |
 | 31 | `s09_count` | 17s | Full phone screen, punch + glitch — Count the explosions | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/s09_count.mp4) |
 | 32 | `s10_tempo` | 24s | Full phone screen, punch + glitch — Tempo cuts (90 BPM) | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/s10_tempo.mp4) |
+| 33 | `h01_last` | 11s | HQ 60fps loop, no end card — Wait for the last shot | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/h01_last.mp4) |
+| 34 | `h02_unexpected` | 12s | HQ 60fps loop, no end card — Didn't expect this | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/h02_unexpected.mp4) |
+| 35 | `h03_rate` | 11s | HQ 60fps loop, no end card — Rate it /10 | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/h03_rate.mp4) |
+| 36 | `h04_friend` | 11s | HQ 60fps loop, no end card — Playing with your friend | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/h04_friend.mp4) |
+| 37 | `h05_sound` | 11s | HQ 60fps loop, no end card — Sound on full | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/h05_sound.mp4) |
+| 38 | `h06_twice` | 11s | HQ 60fps loop, no end card — Watch it twice | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/h06_twice.mp4) |
+| 39 | `h07_twelve` | 12s | HQ 60fps loop, no end card — Best 12 seconds | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/h07_twelve.mp4) |
+| 40 | `h08_team` | 11s | HQ 60fps loop, no end card — Team 1 or 2 | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/h08_team.mp4) |
+| 41 | `h09_firstday` | 12s | HQ 60fps loop, no end card — POV first day | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/h09_firstday.mp4) |
+| 42 | `h10_noskip` | 12s | HQ 60fps loop, no end card — Don't skip | [mp4](https://github.com/glowyburrow/whop/raw/claude/gifted-goodall-o33567/arabic-cod-whop-clips-mohab/videos/h10_noskip.mp4) |
 
 Before posting: tag @callofdutyarabic (TikTok) / @callofdutyara (Instagram), keep likes/comments visible, check every clip yourself (no Mads Mikkelsen).
 
