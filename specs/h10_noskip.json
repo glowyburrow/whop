@@ -51,7 +51,9 @@
       "src": "sources/Campaign Trailer.mp4",
       "start": 46.6,
       "dur": 1.0,
-      "shake": 16
+      "fit": true,
+      "zoom": 0.06,
+      "src_crop": "1920:800:0:140"
     },
     {
       "src": "sources/PC Trailer.mp4",

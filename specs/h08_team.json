@@ -56,7 +56,10 @@
     {
       "src": "sources/Campaign Trailer.mp4",
       "start": 43.5,
-      "dur": 1.2
+      "dur": 1.2,
+      "fit": true,
+      "zoom": 0.06,
+      "src_crop": "1920:800:0:140"
     }
   ],
   "texts": [

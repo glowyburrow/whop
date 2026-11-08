@@ -41,7 +41,10 @@
     {
       "src": "sources/Campaign Trailer.mp4",
       "start": 46.6,
-      "dur": 0.9
+      "dur": 0.9,
+      "fit": true,
+      "zoom": 0.06,
+      "src_crop": "1920:800:0:140"
     },
     {
       "src": "sources/PC Trailer.mp4",

@@ -3,16 +3,18 @@
   "layout": "full",
   "shots": [
     {
-      "src": "sources/Campaign Trailer.mp4",
-      "start": 48.0,
-      "dur": 1.1,
-      "shake": 16
-    },
-    {
       "src": "sources/PC Trailer.mp4",
       "start": 109.0,
       "dur": 1.0,
       "shake": 16
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 48.0,
+      "dur": 1.1,
+      "fit": true,
+      "zoom": 0.06,
+      "src_crop": "1920:800:0:140"
     },
     {
       "src": "sources/PC Trailer.mp4",
@@ -23,12 +25,17 @@
       "src": "sources/Campaign Trailer.mp4",
       "start": 46.6,
       "dur": 1.0,
-      "shake": 16
+      "fit": true,
+      "zoom": 0.06,
+      "src_crop": "1920:800:0:140"
     },
     {
       "src": "sources/Campaign Trailer.mp4",
       "start": 45.6,
-      "dur": 1.0
+      "dur": 1.0,
+      "fit": true,
+      "zoom": 0.06,
+      "src_crop": "1920:800:0:140"
     },
     {
       "src": "sources/PC Trailer.mp4",
@@ -71,12 +78,6 @@
       "to": 11.1,
       "style": "Brand",
       "text": "MODERN WARFARE 4"
-    },
-    {
-      "from": 0.3,
-      "to": 3.1,
-      "style": "Sub",
-      "text": "شغّل الصوت"
     },
     {
       "from": 5.1,

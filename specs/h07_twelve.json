@@ -10,7 +10,10 @@
     {
       "src": "sources/Campaign Trailer.mp4",
       "start": 48.0,
-      "dur": 0.8
+      "dur": 0.8,
+      "fit": true,
+      "zoom": 0.06,
+      "src_crop": "1920:800:0:140"
     },
     {
       "src": "sources/PC Trailer.mp4",
@@ -35,7 +38,10 @@
     {
       "src": "sources/Campaign Trailer.mp4",
       "start": 46.6,
-      "dur": 0.8
+      "dur": 0.8,
+      "fit": true,
+      "zoom": 0.06,
+      "src_crop": "1920:800:0:140"
     },
     {
       "src": "sources/PC Trailer.mp4",
@@ -70,7 +76,10 @@
     {
       "src": "sources/Campaign Trailer.mp4",
       "start": 43.5,
-      "dur": 0.9
+      "dur": 0.9,
+      "fit": true,
+      "zoom": 0.06,
+      "src_crop": "1920:800:0:140"
     },
     {
       "src": "sources/PC Trailer.mp4",

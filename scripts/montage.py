@@ -91,14 +91,17 @@ def main():
             gl = s.get("glitch", fx.get("glitch", False)) and not s.get("fit")
             z = s.get("zoom", 0.12)  # punch-in amount over the shot
             x = s.get("x", 0.5)  # horizontal crop position, 0=left .. 1=right
-            if s.get("fit") and full:  # whole 16:9 frame over a blurred fill
-                fh = round(W * 9 / 16 / 2) * 2
+            sc = s.get("src_crop")  # "w:h:x:y" to cut black bars off the source first
+            pre = f"crop={sc}," if sc else ""
+            ar = (int(sc.split(":")[0]) / int(sc.split(":")[1])) if sc else 16 / 9
+            if s.get("fit") and full:  # whole source frame over a blurred fill
+                fh = round(W / ar / 2) * 2
                 geo = (f"split[b][f];[b]scale=-2:{BOX_H},crop={W}:{BOX_H},boxblur=40:2,"
                        f"eq=brightness=-0.2[bb];"
                        f"[f]scale=w='trunc({W}*(1+{z}*t/{d})/2)*2':h=-2:eval=frame:flags=lanczos,crop={W}:{fh}[ff];"
                        f"[bb][ff]overlay=0:(H-h)/2,")
             elif s.get("fit"):  # keep full 16:9 frame (logos / end cards), letterboxed
-                fh = round(W * 9 / 16 / 2) * 2
+                fh = round(W / ar / 2) * 2
                 geo = (f"scale=w='trunc({W}*(1+{z}*t/{d})/2)*2':h=-2:eval=frame:flags=lanczos,"
                        f"crop={W}:{fh},pad={W}:{BOX_H}:0:(oh-ih)/2:black,")
             else:             # fill the box, crop at x (optional camera shake)
@@ -111,7 +114,7 @@ def main():
                        f"y='(ih-oh)/2+{sh}*cos(t*47)',")
             sp = s.get("speed", 1.0)  # <1 slow motion, >1 fast
             glitch = "rgbashift=rh=-26:bh=26:gv=8:enable='lt(t,0.12)'," if gl else ""
-            vf = (f"setpts=(PTS-STARTPTS)/{sp},fps={FPS},{geo}{glitch}setsar=1,format=yuv420p,"
+            vf = (f"{pre}setpts=(PTS-STARTPTS)/{sp},fps={FPS},{geo}{glitch}setsar=1,format=yuv420p,"
                   f"fade=t=in:st=0:d=0.15:color=white")
             af = (f"aformat=sample_rates=48000:channel_layouts=stereo,"
                   + (f"atempo={sp}," if sp != 1.0 else "")
