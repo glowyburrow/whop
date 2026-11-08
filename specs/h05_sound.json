@@ -1,0 +1,112 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 48.0,
+      "dur": 1.1,
+      "shake": 16
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 109.0,
+      "dur": 1.0,
+      "shake": 16
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 50.6,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 46.6,
+      "dur": 1.0,
+      "shake": 16
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 45.6,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 105.6,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 110.5,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 133.0,
+      "dur": 1.0,
+      "shake": 16
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 108.0,
+      "dur": 1.8,
+      "speed": 0.5
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 21.0,
+      "dur": 1.2,
+      "shake": 16
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 11.1,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 11.1,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 3.1,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 5.1,
+      "to": 11.1,
+      "style": "CTA",
+      "text": "كم الصوت عندك؟"
+    },
+    {
+      "from": 0.0,
+      "to": 3.1,
+      "style": "Hook",
+      "text": "شغّل الصوت\\Nعلى الآخر"
+    },
+    {
+      "from": 3.1,
+      "to": 8.1,
+      "style": "Hook",
+      "text": "سمعت؟"
+    },
+    {
+      "from": 8.1,
+      "to": 11.1,
+      "style": "Hook",
+      "text": "وهذا الأقوى"
+    }
+  ],
+  "fx": {
+    "punch": 0.2,
+    "glitch": true
+  },
+  "fps": 60,
+  "hq": true
+}

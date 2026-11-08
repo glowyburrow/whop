@@ -63,8 +63,11 @@ def ass(spec, family, total, layout):
 
 
 def main():
+    global FPS
     spec_path, out = sys.argv[1], sys.argv[2]
     spec = json.load(open(spec_path))
+    FPS = spec.get("fps", 30)
+    hq = spec.get("hq", False)  # higher-quality encode + colour grade + sharpen
     font = spec.get("font", "fonts/Cairo-Black.ttf")
     family = subprocess.check_output(["fc-scan", "--format", "%{family[0]}", font], text=True)
     shots = spec["shots"]
@@ -92,18 +95,18 @@ def main():
                 fh = round(W * 9 / 16 / 2) * 2
                 geo = (f"split[b][f];[b]scale=-2:{BOX_H},crop={W}:{BOX_H},boxblur=40:2,"
                        f"eq=brightness=-0.2[bb];"
-                       f"[f]scale=w='trunc({W}*(1+{z}*t/{d})/2)*2':h=-2:eval=frame,crop={W}:{fh}[ff];"
+                       f"[f]scale=w='trunc({W}*(1+{z}*t/{d})/2)*2':h=-2:eval=frame:flags=lanczos,crop={W}:{fh}[ff];"
                        f"[bb][ff]overlay=0:(H-h)/2,")
             elif s.get("fit"):  # keep full 16:9 frame (logos / end cards), letterboxed
                 fh = round(W * 9 / 16 / 2) * 2
-                geo = (f"scale=w='trunc({W}*(1+{z}*t/{d})/2)*2':h=-2:eval=frame,"
+                geo = (f"scale=w='trunc({W}*(1+{z}*t/{d})/2)*2':h=-2:eval=frame:flags=lanczos,"
                        f"crop={W}:{fh},pad={W}:{BOX_H}:0:(oh-ih)/2:black,")
             else:             # fill the box, crop at x (optional camera shake)
                 sh = s.get("shake", 0)  # shake amplitude in px
                 base = 1 + (0.06 if sh else 0)
                 k = f"({base}+{z}*t/{d}+{pu}*max(0,1-t/0.22))"
                 geo = (f"scale=w='trunc({BOX_H}*16/9*{k}/2)*2':"
-                       f"h='trunc({BOX_H}*{k}/2)*2':eval=frame,"
+                       f"h='trunc({BOX_H}*{k}/2)*2':eval=frame:flags=lanczos,"
                        f"crop={W}:{BOX_H}:x='(iw-ow)*{x}+{sh}*sin(t*53)':"
                        f"y='(ih-oh)/2+{sh}*cos(t*47)',")
             sp = s.get("speed", 1.0)  # <1 slow motion, >1 fast
@@ -116,7 +119,7 @@ def main():
             part = f"{tmp}/shot{i:02d}.mkv"
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(a), "-t", str(round(d * sp, 3)),
                             "-i", s["src"], "-vf", vf, "-af", af,
-                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "14",
+                            "-c:v", "libx264", "-preset", "fast" if hq else "veryfast", "-crf", "10" if hq else "14",
                             "-c:a", "pcm_s16le", "-t", str(d), part], check=True)
             parts.append(part)
             print(f"  shot {i + 1}/{len(shots)}", flush=True)
@@ -137,11 +140,13 @@ def main():
                      "drawbox=y=1280:w=iw:h=300:color=black@0.25:t=fill,")
         fc.append(f"[c1]{shade}null[c1s]")
         fc.append(f"[c1s][bar]overlay=x='-W+W*t/{total}':y={H - 14}:shortest=1[c2]")
-        fc.append(f"[c2]subtitles={tmp}/text.ass:fontsdir={tmp}/fonts[vo]")
+        grade = "eq=contrast=1.07:saturation=1.18:gamma=0.98,unsharp=5:5:0.55:5:5:0," if hq else ""
+        fc.append(f"[c2]{grade}subtitles={tmp}/text.ass:fontsdir={tmp}/fonts[vo]")
         fc.append(f"[ma]loudnorm=I=-14:TP=-1.5:LRA=11,afade=t=out:st={total - 1}:d=1[ao]")
 
         args += ["-filter_complex", ";".join(fc), "-map", "[vo]", "-map", "[ao]",
-                 "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p",
+                 "-c:v", "libx264", "-preset", "slow" if hq else "medium", "-crf", "16" if hq else "19",
+                 "-profile:v", "high", "-pix_fmt", "yuv420p",
                  "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", out]
         subprocess.run(args, check=True)
         print(f"wrote {out} ({total:.1f}s)")

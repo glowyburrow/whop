@@ -1,0 +1,116 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 17.5,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 19.0,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 20.5,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 85.2,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 40.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 72.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 73.0,
+      "dur": 0.9
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 47.0,
+      "dur": 0.8,
+      "shake": 16
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 48.0,
+      "dur": 1.0,
+      "shake": 16
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 50.6,
+      "dur": 1.0,
+      "shake": 16
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 109.0,
+      "dur": 1.5,
+      "speed": 0.5,
+      "shake": 12
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 11.5,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 11.5,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 3.3,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 5.5,
+      "to": 11.5,
+      "style": "CTA",
+      "text": "أول يوم لك كان كذا؟"
+    },
+    {
+      "from": 0.0,
+      "to": 3.3,
+      "style": "Hook",
+      "text": "POV: أول يوم لك\\Nفي كول اوف ديوتي"
+    },
+    {
+      "from": 3.3,
+      "to": 7.2,
+      "style": "Hook",
+      "text": "كل شي هادي..."
+    },
+    {
+      "from": 7.2,
+      "to": 11.5,
+      "style": "Hook",
+      "text": "وفجأة!"
+    }
+  ],
+  "fx": {
+    "punch": 0.2,
+    "glitch": true
+  },
+  "fps": 60,
+  "hq": true
+}

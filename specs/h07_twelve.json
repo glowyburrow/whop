@@ -1,0 +1,126 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 51.0,
+      "dur": 0.8
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 48.0,
+      "dur": 0.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 109.0,
+      "dur": 0.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 96.0,
+      "dur": 0.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 39.0,
+      "dur": 0.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 102.0,
+      "dur": 0.8
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 46.6,
+      "dur": 0.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 105.6,
+      "dur": 0.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 73.0,
+      "dur": 0.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 86.0,
+      "dur": 0.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 110.5,
+      "dur": 0.8
+    },
+    {
+      "src": "sources/DMZ WORLDBUILDER.mp4",
+      "start": 133.0,
+      "dur": 0.8
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 47.0,
+      "dur": 0.8
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 43.5,
+      "dur": 0.9
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 108.0,
+      "dur": 1.2,
+      "speed": 0.5
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 12.5,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 12.5,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 4.0,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 6.5,
+      "to": 12.5,
+      "style": "CTA",
+      "text": "عيدها"
+    },
+    {
+      "from": 0.0,
+      "to": 4.0,
+      "style": "Hook",
+      "text": "أقوى ١٢ ثانية\\Nكول اوف ديوتي"
+    },
+    {
+      "from": 4.0,
+      "to": 12.5,
+      "style": "Hook",
+      "text": "ولا ثانية ملل"
+    }
+  ],
+  "fx": {
+    "punch": 0.2,
+    "glitch": true
+  },
+  "fps": 60,
+  "hq": true
+}

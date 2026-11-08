@@ -1,0 +1,115 @@
+{
+  "font": "fonts/Cairo-Black.ttf",
+  "layout": "full",
+  "shots": [
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 17.5,
+      "dur": 1.2
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 19.0,
+      "dur": 1.1
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 40.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 104.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 89.0,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 46.3,
+      "dur": 1.2,
+      "shake": 16
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 22.3,
+      "dur": 0.9,
+      "shake": 16
+    },
+    {
+      "src": "sources/Campaign Trailer.mp4",
+      "start": 48.0,
+      "dur": 1.0,
+      "shake": 16
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 110.5,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 105.6,
+      "dur": 1.0
+    },
+    {
+      "src": "sources/PC Trailer.mp4",
+      "start": 24.0,
+      "dur": 1.2,
+      "speed": 0.5
+    }
+  ],
+  "texts": [
+    {
+      "from": 0,
+      "to": 11.6,
+      "style": "Top",
+      "text": "CALL OF DUTY"
+    },
+    {
+      "from": 0,
+      "to": 11.6,
+      "style": "Brand",
+      "text": "MODERN WARFARE 4"
+    },
+    {
+      "from": 0.3,
+      "to": 4.3,
+      "style": "Sub",
+      "text": "شغّل الصوت"
+    },
+    {
+      "from": 5.6,
+      "to": 11.6,
+      "style": "CTA",
+      "text": "توقعتها؟ قول بصراحة"
+    },
+    {
+      "from": 0.0,
+      "to": 4.3,
+      "style": "Hook",
+      "text": "ما توقعت هالشي\\Nفي كول اوف ديوتي"
+    },
+    {
+      "from": 4.3,
+      "to": 8.4,
+      "style": "Hook",
+      "text": "انتبه..."
+    },
+    {
+      "from": 8.4,
+      "to": 11.6,
+      "style": "Hook",
+      "text": "كيف صارت؟"
+    }
+  ],
+  "fx": {
+    "punch": 0.2,
+    "glitch": true
+  },
+  "fps": 60,
+  "hq": true
+}
